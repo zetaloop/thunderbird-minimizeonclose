@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "applications": {
+    "gecko": {
+      "id": "minimizeonclose@rsjtdrjgfuzkfg.com",
+      "strict_min_version": "68.0",
+      "strict_max_version": "128.*"
+    }
+  },
+  "name": "Minimize on Close",
+  "description": "Causes Thunderbird's main window to minimize instead of closing. You can still close Thunderbird through the menu.",
+  "version": "__BUILD_version__",
+  "author": "rsjtdrjgfuzkfg",
+  "icons": {
+    "64": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "experiment_apis": {
+    "ex_windows": {
+      "schema": "experiment.json",
+      "parent": {
+        "scopes": ["addon_parent"],
+        "paths": [["ex_windows"]],
+        "script": "experiment.js"
+      }
+    }
+  }
+}
