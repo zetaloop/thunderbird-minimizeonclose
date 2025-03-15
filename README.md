@@ -1,6 +1,6 @@
 # Minimize on Close add-on for Thunderbird
 
-An add-on to minimize Thunderbird when clicking on the close button. You can [download stable releases through addons.thunderbird.net](https://addons.thunderbird.net/thunderbird/addon/minimize-on-close/). Alternatively, binary builds for named versions are also available [on the releases page of this repository](https://github.com/rsjtdrjgfuzkfg/minimize-on-close/releases).
+An add-on to minimize Thunderbird when clicking on the close button. You can [download stable releases through addons.thunderbird.net](https://addons.thunderbird.net/thunderbird/addon/minimize-on-close/). Alternatively, binary builds for named versions are also available [on the releases page of this repository](https://github.com/rsjtdrjgfuzkfg/thunderbird-minimizeonclose/releases).
 
 
 ## Compatibility
